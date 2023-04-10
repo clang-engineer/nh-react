@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  zeroweb-app:
+    build: ../../..
+    container_name: zeroweb-app
+    environment:
+    ports:
+      - 8081:8081
